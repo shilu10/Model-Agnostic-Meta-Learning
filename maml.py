@@ -13,14 +13,14 @@ from dataloader import get_omniglot_dataloader
 from utils import score
 
 
-NUM_INPUT_CHANNELS = os.environ['NUM_INPUT_CHANNELS'] 
-NUM_HIDDEN_CHANNELS = os.environ['NUM_HIDDEN_CHANNELS'] 
-KERNEL_SIZE = os.environ['KERNEL_SIZE']
-NUM_CONV_LAYERS = os.environ['NUM_CONV_LAYERS']
-SUMMARY_INTERVAL = os.environ['SUMMARY_INTERVAL']
-SAVE_INTERVAL = os.environ['SAVE_INTERVAL']
-LOG_INTERVAL = os.environ['LOG_INTERVAL']
-NUM_TEST_TASKS = os.environ['NUM_TEST_TASKS']
+#NUM_INPUT_CHANNELS = os.environ['NUM_INPUT_CHANNELS'] 
+#NUM_HIDDEN_CHANNELS = os.environ['NUM_HIDDEN_CHANNELS'] 
+#KERNEL_SIZE = os.environ['KERNEL_SIZE']
+#NUM_CONV_LAYERS = os.environ['NUM_CONV_LAYERS']
+#SUMMARY_INTERVAL = os.environ['SUMMARY_INTERVAL']
+#SAVE_INTERVAL = os.environ['SAVE_INTERVAL']
+#LOG_INTERVAL = os.environ['LOG_INTERVAL']
+#NUM_TEST_TASKS = os.environ['NUM_TEST_TASKS']
 
 NUM_INPUT_CHANNELS = 1
 NUM_HIDDEN_CHANNELS = 64

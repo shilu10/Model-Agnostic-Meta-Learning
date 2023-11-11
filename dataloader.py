@@ -11,14 +11,14 @@ from torch.utils.data import dataset, sampler, dataloader
 from utils import load_image
 
 # number of classes per each split(train, test, val)
-NUM_TRAIN_CLASSES = os.environ['NUM_TRAIN_CLASSES']
-#NUM_TRAIN_CLASSES = 1100
-#NUM_VAL_CLASSES = 100
-NUM_VAL_CLASSES = os.environ['NUM_VAL_CLASSES']
-#NUM_TEST_CLASSES = 423
-NUM_TEST_CLASSES = os.environ['NUM_TEST_CLASSES']
-#NUM_SAMPLES_PER_CLASS = 20
-NUM_SAMPLES_PER_CLASS = os.environ['NUM_SAMPLES_PER_CLASS']
+#NUM_TRAIN_CLASSES = os.environ['NUM_TRAIN_CLASSES']
+NUM_TRAIN_CLASSES = 1100
+NUM_VAL_CLASSES = 100
+#NUM_VAL_CLASSES = os.environ['NUM_VAL_CLASSES']
+NUM_TEST_CLASSES = 423
+#NUM_TEST_CLASSES = os.environ['NUM_TEST_CLASSES']
+NUM_SAMPLES_PER_CLASS = 20
+#NUM_SAMPLES_PER_CLASS = os.environ['NUM_SAMPLES_PER_CLASS']
 
 
 class OmniglotDataset(dataset.Dataset):
